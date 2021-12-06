@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<!-- meta tags and title -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Page Title Goes Here</title>
+
+		<!-- external and on-page CSS goes here -->
+		<link rel="stylesheet" href="styles.css" media="all">
+		<style>
+			/* on-page CSS, if any, goes here */
+		</style>
+
+		<!-- external and on-page JavaScript goes here -->
+		<script type="text/javascript" src="scripts.js" defer></script>
+		<script>
+			// on-page JavaScript, if any, goes here
+		</script>
+
+	</head>
+
+  <h1>Unit Conversion </h1>
+	<body>
+    
+    <h2>Length Converter</h2>
+<p>Type a value in the Inches field to convert the value to cm:</p>
+
+<p>
+  <label>Inches</label>
+  <input id="inputInches" type="number" placeholder="Inches" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>cm: <span id="outputcm"></span></p>
+
+
+	
+	</body>
+
+</html>
